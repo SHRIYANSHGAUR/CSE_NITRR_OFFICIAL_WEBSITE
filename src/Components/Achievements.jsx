@@ -1,27 +1,33 @@
-import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
-import Card from './Card';
+import * as React from "react";
+import { styled } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Paper from "@mui/material/Paper";
+import Grid from "@mui/material/Grid";
+import Card from "./Card";
+import image from "./img/sample.webp";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: "center",
   color: theme.palette.text.secondary,
 }));
 
-export default function Achievements() {
+export default function Acievements() {
+  const header = "Transformative education",
+    content =
+      "UChicago students develop the habits of mind and intellectual skills needed to confront complex challenges.";
   return (
-    <Grid container spacing={2} justifyContent="space-evenly">
-      <Grid container xs={4} justifyContent="center">
-        <Card big />
+    <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2} justifyContent="space-evenly">
+        <Grid container item xs={4} justifyContent="center">
+          <Card header={header} content={content} img={image} />
+        </Grid>
+        <Grid container item xs={4} justifyContent="center">
+          <Card header={header} content={content} img={image} />
+        </Grid>
       </Grid>
-      <Grid container xs={4}>
-        <Card big />
-      </Grid>
-    </Grid>
+    </Box>
   );
 }
