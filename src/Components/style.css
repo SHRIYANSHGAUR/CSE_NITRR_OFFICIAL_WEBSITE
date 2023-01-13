@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nb {
+  background-color: maroon;
+}
+.bb {
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, serif;
+}
+.headd {
+  font-family: Georgia, serif;
+  color: white;
+}
+
+@media screen and (max-width: 550px) {
+  .headd {
+    font-family: Georgia, serif;
+    color: white;
+    font-size: small;
+  }
+}
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+}
