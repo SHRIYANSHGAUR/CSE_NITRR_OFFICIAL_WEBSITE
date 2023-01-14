@@ -17,16 +17,12 @@ function Facultycard({ title, description, imgUrl, websiteLink }) {
           <Container>
             <Card.Title className="cardTitle">{title}</Card.Title>
           </Container>
-          <Card.Text className="description">
-            <Container>
-              <span>{description}</span>
-            </Container>
+          <Card.Text>
+              <div className="description">{description}</div>
           </Card.Text>
-          <Container>
-            <Card.Link href={websiteLink}>
-              <Button variant="outline-warning">Profile Link</Button>
+            <Card.Link className='button1' href={websiteLink}>
+              <Button  variant="outline-warning">Profile Link</Button>
             </Card.Link>
-          </Container>
         </Card.Body>
       </Card>
     </Container>

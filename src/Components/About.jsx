@@ -5,7 +5,7 @@ function About() {
   return (
     <div id="about" class="section-cotent">
       <div class="container">
-        <div class="title-section text-center">
+        <div class="title-section text-center about1">
           <h2>About CSE Department</h2>
           <span></span>
         </div>

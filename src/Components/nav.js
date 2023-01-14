@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <nav
-      className="navigation justify-content-between"
+      className="navigation justify-content-between nav1"
       style={{ minWidth: '100%' }}
       align="center"
     >
