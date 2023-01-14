@@ -7,6 +7,13 @@ body {
   overflow-x: hidden;
 }
 
+.kl {
+  padding: 3rem 3rem 3rem 3rem;
+}
+.lm {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 code {
   font-family: Georgia, serif;
 }
