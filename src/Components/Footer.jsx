@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer
         class="text-center text-lg-start text-white"
-        style={{ backgroundColor: '#929fba' }}
+        style={{ backgroundColor: 'maroon' }}
       >
         <div class="container p-4 pb-0">
           <section class="">
@@ -120,9 +120,16 @@ const Footer = () => {
           class="text-center p-3"
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
         >
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">
-            MDBootstrap.com
+          © 2023-Present Copyright:
+          <a class="text-white" href="http://nitrr.ac.in/">
+            Computer Science Engineering Department N.I.T. Raipur
+          </a>
+          <br />
+          <a
+            class="text-white"
+            href="https://www.linkedin.com/in/shriyansh-gaur-82b969a6/"
+          >
+            Designed and Developed by Web Team | A.C.E. |
           </a>
         </div>
       </footer>

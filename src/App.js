@@ -52,10 +52,10 @@ function Header() {
       <News />
       <Post />
       <Gallary />
-      <Achievements />
+      {/* <Achievements />
       <MediaCoverage />
-      <Card />
-      <div>
+      <Card /> */}
+      {/* <div>
         <main
           id="intro"
           class="bg-image"
@@ -65,7 +65,7 @@ function Header() {
             height: '100vh',
           }}
         ></main>
-      </div>
+      </div> */}
     </>
   );
 }
@@ -96,7 +96,7 @@ export default function App() {
     <>
       <Header />
       <GridList />
-      <Footer />;
+      <Footer />
     </>
   );
 }

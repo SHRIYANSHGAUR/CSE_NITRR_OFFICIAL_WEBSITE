@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 100%;
@@ -8,8 +8,26 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Georgia, serif;
+}
+
+.tk {
+  color: white;
+  padding-top: 2rem;
+}
+.post {
+  padding: 2rem 2rem 2rem 2rem;
+}
+.btn-primary {
+  background-color: maroon;
+}
+
+.nn {
+  background-color: maroon;
+}
+
+.news {
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .nb {

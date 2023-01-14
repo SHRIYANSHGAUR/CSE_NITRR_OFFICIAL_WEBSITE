@@ -1,11 +1,12 @@
 .body {
   display: flex;
   text-align: center;
+  font-family: Georgia, serif;
   align-items: center;
 }
 /*ABout*/
 #about {
-  background: linear-gradient(207deg, grey 0%, maroon 81%);
+  background: maroon;
   padding-left: 10%;
   padding-right: 10%;
   color: white;
@@ -13,9 +14,14 @@
   padding-bottom: 5%;
 }
 
+.kXteup:hover:enabled,
+.kXteup:focus:enabled {
+  background-color: grey;
+}
+
 /*Faculty*/
-.about1 h2{
-  color: white!important;
+.about1 h2 {
+  color: white !important;
 }
 
 .title-section {
@@ -49,12 +55,12 @@
 
 .rec.rec-arrow {
   background-color: white;
-  color: blue;
+  color: maroon;
 }
 
 .rec.rec-arrow:hover,
 .rec.rec-arrow:active {
-  color: blue !important;
+  color: maroon !important;
 }
 
 .rec-dot {
@@ -99,17 +105,17 @@
 .cardTitle {
   font-weight: 600;
   font-size: 0.9rem !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, serif;
   text-align: center;
   text-size-adjust: 90%;
   white-space: nowrap;
 }
 
-.rev-pagination{
-  white-space: nowrap!important;
+.rev-pagination {
+  white-space: nowrap !important;
 }
 
-.button1{
+.button1 {
   display: flex;
   justify-content: center;
   white-space: nowrap;
@@ -180,57 +186,53 @@
 .gallary {
   display: flex;
   align-items: center;
-  
+
   padding-bottom: 10%;
 }
 #gallary1 {
   margin-top: 2%;
-  background: linear-gradient(25deg, grey 0%, maroon 81%);
+  background: maroon;
 }
-.gallary1 h2{
+.gallary1 h2 {
   color: white;
   padding-top: 2%;
 }
 
-.gallary1{
+.gallary1 {
   margin-top: 2%;
   margin-bottom: 2%;
-
 }
 
-.container1{
+.container1 {
   align-items: center;
 }
 
-.container2{
+.container2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 @media only screen and (max-width: 600px) {
-  .gallary{
-    height: 320px!important;
-    width: 350px!important;
-    margin: 0%!important;
+  .gallary {
+    height: 320px !important;
+    width: 350px !important;
+    margin: 0% !important;
     align-items: center;
   }
 }
 @media only screen and (min-width: 600px) {
-  .gallary{
-    height: 220px!important;
-    width: 700px!important;
+  .gallary {
+    height: 220px !important;
+    width: 700px !important;
   }
-  
 }
 @media only screen and (min-width: 992px) {
-  .gallary{
+  .gallary {
     align-items: center;
-    height: 700px!important;
-    width: 800px!important;
+    height: 700px !important;
+    width: 800px !important;
   }
 }
-
-
 
 .backgroundImg {
   background-color: #dfeff0;
@@ -248,7 +250,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: grey;
 }
 
 @keyframes App-logo-spin {

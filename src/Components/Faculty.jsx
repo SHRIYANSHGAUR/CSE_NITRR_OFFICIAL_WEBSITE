@@ -41,7 +41,7 @@ function Faculty() {
       websiteLink: 'http://www.nitrr.ac.in/viewdetails.php?q=cs.psingh',
     },
     {
-      title: 'Dr.(Mrs).Aakanksha Sharaff',
+      title: 'Dr.Aakanksha Sharaff',
       description: 'Assistant Professor',
       imgUrl: 'https://i.postimg.cc/3d48tShj/img4.png',
       websiteLink: 'http://www.nitrr.ac.in/viewdetails.php?q=cs.asharaff',
