@@ -14,6 +14,9 @@
 }
 
 /*Faculty*/
+.about1 h2{
+  color: white!important;
+}
 
 .title-section {
   margin-bottom: 80px;
@@ -91,13 +94,27 @@
 }
 .cardBox {
   padding: 5px;
+  justify-content: center;
 }
 .cardTitle {
-  font-size: medium !important;
+  font-weight: 600;
+  font-size: 0.9rem !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
+  text-size-adjust: 90%;
   white-space: nowrap;
 }
+
+.rev-pagination{
+  white-space: nowrap!important;
+}
+
+.button1{
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
 .faculty {
   padding: 20px;
   background-color: white;
@@ -137,7 +154,11 @@
   border: 4px solid white;
 }
 .description {
+  font-size: 0.8rem;
   white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  padding: 0% 5%;
 }
 .card {
   border-radius: 4px;
@@ -157,15 +178,59 @@
 /*Gallary*/
 
 .gallary {
+  display: flex;
   align-items: center;
-  margin-right: 20%;
-  margin-left: 20%;
+  
   padding-bottom: 10%;
 }
 #gallary1 {
   margin-top: 2%;
   background: linear-gradient(25deg, grey 0%, maroon 81%);
 }
+.gallary1 h2{
+  color: white;
+  padding-top: 2%;
+}
+
+.gallary1{
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+.container1{
+  align-items: center;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .gallary{
+    height: 320px!important;
+    width: 350px!important;
+    margin: 0%!important;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .gallary{
+    height: 220px!important;
+    width: 700px!important;
+  }
+  
+}
+@media only screen and (min-width: 992px) {
+  .gallary{
+    align-items: center;
+    height: 700px!important;
+    width: 800px!important;
+  }
+}
+
+
 
 .backgroundImg {
   background-color: #dfeff0;

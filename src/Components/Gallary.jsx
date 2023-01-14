@@ -5,22 +5,61 @@ import 'react-gallery-carousel/dist/index.css';
 import './cstyle.css';
 
 function Gallary() {
-  const images = [9, 8, 7, 6, 5, 4, 3, 2, 1].map((number) => ({
-    src: `https://placedog.net/${number}00/${number}00?id=${number}`,
+  const images = [
+    {
+     src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+    },
+    {
+     src: "https://i.postimg.cc/7bWN06Xs/Whats-App-Image-2023-01-14-at-00-01-54.jpg' border='0' alt='Whats-App-Image-2023-01-14-at-00-01-54"
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    },
+    {
+      src: "https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg"
+
+    }
+  ]
+  images.map((number) => ({
+    src: `{number}`,
   }));
 
   return (
     <div id="gallary1" class="section-cotent">
-      <div class="container">
+      <div class="container1">
         <div class="title-section text-center gallary1">
           <h2>Gallary</h2>
           <span></span>
         </div>
-        <Container>
+        <Container className='container2'>
           <div className="gallary">
-            <Carousel
+            <Carousel className='gallaryRes'
               images={images}
-              /* style={{height: 500, width: 800 }}*/
               hasIndexBoard={false}
             />
           </div>
