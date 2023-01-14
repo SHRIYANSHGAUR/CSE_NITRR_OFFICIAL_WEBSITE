@@ -14,7 +14,7 @@ const Repo = () => {
           <main class="px-3">
             <h1>Official GITHUB REPO</h1>
             <p class="lead">
-              CSE_NITRR_OFFICIAL_WEBSITE (ReactJs) As Web Team Head of
+              CSE_NITRR_OFFICIAL WEBSITE (ReactJs). As Web Team Head of
               Association of Computer Science & Engineering committee I led a
               team of 4 to Design and Develop the official website for CSE
               department of N.I.T. Raipur my Alma Mater.
@@ -22,7 +22,7 @@ const Repo = () => {
             <p class="lead">
               <a
                 href="https://github.com/SHRIYANSHGAUR/CSE_NITRR_OFFICIAL_WEBSITE"
-                class="btn btn-lg btn-primary fw-bold border-white bg-white"
+                class="btn btn-lg btn-primary fw-bold"
               >
                 Visit Repo
               </a>
