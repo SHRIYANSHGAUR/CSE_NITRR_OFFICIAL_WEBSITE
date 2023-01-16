@@ -7,7 +7,7 @@ const Post = () => {
       <div class="post">
         <section class="text-center">
           <h4 class="mb-5">
-            <strong>Latest posts</strong>
+            <strong>Events and Workshops</strong>
           </h4>
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4">
@@ -33,9 +33,9 @@ const Post = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#!" class="btn btn-primary">
+                  {/* <a href="#!" class="btn btn-primary">
                     Read
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -62,9 +62,9 @@ const Post = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#!" class="btn btn-primary">
+                  {/* <a href="#!" class="btn btn-primary">
                     Read
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -91,9 +91,9 @@ const Post = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#!" class="btn btn-primary">
+                  {/* <a href="#!" class="btn btn-primary">
                     Read
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -122,9 +122,9 @@ const Post = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#!" class="btn btn-primary">
+                  {/* <a href="#!" class="btn btn-primary">
                     Read
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -151,9 +151,9 @@ const Post = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#!" class="btn btn-primary">
+                  {/* <a href="#!" class="btn btn-primary">
                     Read
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -177,9 +177,9 @@ const Post = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#!" class="btn btn-primary">
+                  {/* <a href="#!" class="btn btn-primary">
                     Read
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

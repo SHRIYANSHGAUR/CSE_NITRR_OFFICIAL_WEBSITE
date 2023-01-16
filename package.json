@@ -1,5 +1,5 @@
 {
-  "name": "qgnizbymn.github",
+  "name": "wmaignkgy.github",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,9 @@
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
     "bootstrap": "5.2.3",
+    "jquery": ">=1.8.3",
     "mdb-react-ui-kit": "5.1.0",
+    "owl.carousel": "^2.3.4",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-bootstrap": "2.7.0",
@@ -20,9 +22,12 @@
     "react-gallery-carousel": "0.3.0",
     "react-is": "18.2.0",
     "react-on-screen": "2.1.1",
+    "react-owl-carousel": "^2.3.3",
     "react-player": "2.11.0",
-    "react-router-dom": "^6.6.2",
+    "react-router-dom": "6.6.2",
+    "react-slick": "^0.29.0",
     "reactjs-media": "2.2.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "5.3.6"
   },
   "scripts": {

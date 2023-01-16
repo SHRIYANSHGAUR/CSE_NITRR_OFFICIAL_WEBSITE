@@ -6,6 +6,18 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+.cd {
+  height: 40%;
+  width: 80%;
+}
+
+.owl {
+  height: 40%;
+  width: 60%;
+}
+.owll {
+  padding: 2rem 4rem 2rem 4rem;
+}
 
 .kl {
   padding: 3rem 3rem 3rem 3rem;
@@ -51,11 +63,30 @@ code {
   color: white;
 }
 
+.rs {
+  color: maroon;
+  padding-top: 3rem;
+}
+
 @media screen and (max-width: 550px) {
   .headd {
     font-family: Georgia, serif;
     color: white;
     font-size: small;
+  }
+  .rs {
+    color: maroon;
+    padding-top: 3rem;
+  }
+
+  .owl {
+    height: 40%;
+    width: 60%;
+  }
+
+  .cd {
+    height: auto;
+    width: auto;
   }
 }
 @media (min-width: 992px) {

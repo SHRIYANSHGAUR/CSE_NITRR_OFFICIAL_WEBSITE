@@ -45,7 +45,7 @@ function Gallary() {
     <div id="gallary1" class="section-cotent">
       <div class="container1">
         <div class="title-section text-center gallary1">
-          <h2>Media Coverage</h2>
+          <h2>Gallery</h2>
           <span></span>
         </div>
         <Container className="container2">

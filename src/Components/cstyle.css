@@ -13,10 +13,31 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.mission1 h2 {
+  color: maroon !important;
+}
+
+#mission {
+  background: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: maroon;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 .kXteup:hover:enabled,
 .kXteup:focus:enabled {
   background-color: grey;
+}
+
+.owltitle {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.owlimg {
+  height: 260px;
+  width: 100%;
 }
 
 /*Faculty*/
@@ -36,6 +57,32 @@
   color: maroon;
 }
 .title-section span {
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: grey;
+  margin: 0 auto;
+}
+
+.col-md-13 {
+  display: flex;
+}
+.col-md-13 img {
+  margin-right: 20px;
+}
+.mission1-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.mission1-section h2 {
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+  color: maroon;
+}
+.mission1-section span {
   display: block;
   width: 70px;
   height: 4px;
@@ -218,6 +265,10 @@
     width: 350px !important;
     margin: 0% !important;
     align-items: center;
+  }
+  .hod {
+    height: 100%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 600px) {
