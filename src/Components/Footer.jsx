@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 
+import Policy from './Components/Policy.jsx';
+
 const Footer = () => {
   return (
     <div>
@@ -35,7 +37,9 @@ const Footer = () => {
                   <a class="text-white">BrandFlow</a>
                 </p>
                 <p>
-                  <a class="text-white">Bootstrap Angular</a>
+                  <a class="text-white" href="/policy">
+                    Policy
+                  </a>
                 </p>
               </div>
 

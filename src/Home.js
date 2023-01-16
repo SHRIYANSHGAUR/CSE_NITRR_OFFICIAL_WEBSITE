@@ -17,6 +17,7 @@ import {
   MDBCardText,
 } from 'mdb-react-ui-kit';
 
+import Policy from './Components/Policy.jsx';
 import About from './Components/About.jsx';
 import Faculty from './Components/Faculty.jsx';
 import Gallary from './Components/Gallary.jsx';
