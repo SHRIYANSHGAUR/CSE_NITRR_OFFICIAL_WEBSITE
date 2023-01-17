@@ -1,9 +1,9 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 const Research = (props) => {
   return (
-    <div class="container">
+    <div id="research" class="container">
       <section class="text-center rs">
         <h4 class="mb-5">
           <strong>{props.title}</strong>
@@ -22,7 +22,7 @@ const Research = (props) => {
                 <a href="#!">
                   <div
                     class="mask"
-                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}
+                    style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                   ></div>
                 </a>
               </div>
@@ -51,7 +51,7 @@ const Research = (props) => {
                 <a href="#!">
                   <div
                     class="mask"
-                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}
+                    style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                   ></div>
                 </a>
               </div>
@@ -80,7 +80,7 @@ const Research = (props) => {
                 <a href="#!">
                   <div
                     class="mask"
-                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}
+                    style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                   ></div>
                 </a>
               </div>

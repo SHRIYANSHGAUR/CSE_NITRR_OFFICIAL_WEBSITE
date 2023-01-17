@@ -1,14 +1,14 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
-import Policy from './Components/Policy.jsx';
+// import Policy from './Components/Policy.jsx';
 
 const Footer = () => {
   return (
     <div>
       <footer
         class="text-center text-lg-start text-white"
-        style={{ backgroundColor: 'maroon' }}
+        style={{ backgroundColor: "maroon" }}
       >
         <div class="container p-4 pb-0">
           <section class="">
@@ -66,7 +66,7 @@ const Footer = () => {
 
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style={{ backgroundColor: '#3b5998' }}
+                  style={{ backgroundColor: "#3b5998" }}
                   href="#!"
                   role="button"
                 >
@@ -75,7 +75,7 @@ const Footer = () => {
 
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style={{ backgroundColor: '#55acee' }}
+                  style={{ backgroundColor: "#55acee" }}
                   href="#!"
                   role="button"
                 >
@@ -84,7 +84,7 @@ const Footer = () => {
 
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style={{ backgroundColor: '#dd4b39' }}
+                  style={{ backgroundColor: "#dd4b39" }}
                   href="#!"
                   role="button"
                 >
@@ -93,7 +93,7 @@ const Footer = () => {
 
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style={{ backgroundColor: '#ac2bac' }}
+                  style={{ backgroundColor: "#ac2bac" }}
                   href="#!"
                   role="button"
                 >
@@ -102,7 +102,7 @@ const Footer = () => {
 
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style={{ backgroundColor: '#0082ca' }}
+                  style={{ backgroundColor: "#0082ca" }}
                   href="#!"
                   role="button"
                 >
@@ -110,7 +110,7 @@ const Footer = () => {
                 </a>
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style={{ backgroundColor: '#333333' }}
+                  style={{ backgroundColor: "#333333" }}
                   href="#!"
                   role="button"
                 >
@@ -122,7 +122,7 @@ const Footer = () => {
         </div>
         <div
           class="text-center p-3"
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           © 2023-Present Copyright:
           <a class="text-white" href="http://nitrr.ac.in/">
