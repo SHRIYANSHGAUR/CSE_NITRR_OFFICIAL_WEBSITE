@@ -5,3 +5,6 @@ As Web Team Head of Association of Computer Science &amp; Engineering committee 
 > Shriyansh Gaur
 # 
 > Molleti Chiru Vishal
+# 
+> Soumyak Panigrahi
+
