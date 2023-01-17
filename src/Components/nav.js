@@ -1,6 +1,6 @@
-import React from 'react';
-import { useState } from 'react';
-import './navbar.css';
+import React from "react";
+import { useState } from "react";
+import "./navbar.css";
 
 export default function Nav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -8,7 +8,7 @@ export default function Nav() {
   return (
     <nav
       className="navigation justify-content-between nav1"
-      style={{ minWidth: '100%' }}
+      style={{ minWidth: "100%" }}
       align="center"
     >
       <button
@@ -33,68 +33,33 @@ export default function Nav() {
       </button>
       <div
         className={
-          isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
         <ul>
           <li>
-            <a class="p-2 te" href="#">
-              World
+            <a class="p-2 te" href="#about">
+              About
             </a>
           </li>
           <li>
-            <a class="p-2 te" href="#">
-              World2
+            <a class="p-2 te" href="#mission">
+              Mission
             </a>
           </li>
           <li>
-            <a class="p-2 te" href="#">
-              World3
+            <a class="p-2 te" href="#facultys">
+              Faculty
             </a>
           </li>
           <li>
-            <a class="p-2 te" href="#">
-              World3
+            <a class="p-2 te" href="#placement">
+              Placement
             </a>
           </li>
           <li>
-            <a class="p-2 te" href="#">
-              World3
-            </a>
-          </li>
-          <li>
-            <a class="p-2 te" href="#">
-              World3
-            </a>
-          </li>
-          <li>
-            <a class="p-2 te" href="#">
-              U.S.
-            </a>
-          </li>
-          <li>
-            <a class="p-2 te" href="#">
-              Technology
-            </a>
-          </li>
-          <li>
-            <a class="p-2 te " href="#">
-              Technology
-            </a>
-          </li>{' '}
-          <li>
-            <a class="p-2 te" href="#">
-              Technology
-            </a>
-          </li>{' '}
-          <li>
-            <a class="p-2 te" href="#">
-              Technology
-            </a>
-          </li>{' '}
-          <li>
-            <a class="p-2 te" href="#">
-              Tech
+            <a class="p-2 te" href="#research">
+              Reseacrh
             </a>
           </li>
         </ul>
