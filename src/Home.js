@@ -34,6 +34,7 @@ import Owl from './Components/Owl.jsx';
 import Navbar from './Components/navbar.jsx';
 import Nav from './Components/nav.js';
 import Video from './Components/video.js';
+import YouTube from './Components/YouTube.js';
 
 import News from './Components/News.jsx';
 import SmallCard from './Components/SmallCard.jsx';
@@ -50,7 +51,8 @@ function Header() {
     <>
       <Navbar />
       <Nav />
-      <Video />
+      {/* <Video /> */}
+      <YouTube video="tSQVgiwr3lU" autoplay="1" rel="0" modest="1" />
       <About />
       <Mission />
       <Faculty />

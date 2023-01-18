@@ -49,11 +49,10 @@ function Video() {
       <div ref={videoRef}>
         <ReactPlayer
           width="100%"
-          height="100%"
+          height="auto"
           controls={true}
-          url={
-            'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4'
-          }
+          class="videoWrapper"
+          url={'https://www.youtube.com/watch?v=tSQVgiwr3lU'}
           config={{ file: { attributes: { controlsList: 'nodownload' } } }}
         />
       </div>
