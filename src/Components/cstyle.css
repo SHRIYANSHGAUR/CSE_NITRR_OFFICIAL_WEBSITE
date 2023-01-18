@@ -26,6 +26,13 @@
   padding-bottom: 5%;
 }
 
+.p2 {
+  text-align: justify;
+  overflow: hidden;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
 .kXteup:hover:enabled,
 .kXteup:focus:enabled {
   background-color: grey;

@@ -12,8 +12,8 @@ body {
 }
 
 .owl {
-  height: 40%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
 }
 .owll {
   padding: 2rem 4rem 2rem 4rem;
@@ -95,18 +95,22 @@ code {
   }
 }
 
-.trends{
+.trends {
   color: black;
   padding-top: 2%;
 }
 
-.Research1 img{
+.Research1 img {
   height: 100%;
   width: auto;
   object-fit: cover;
-
 }
 
-.font1{
+.font1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.companies {
+  display: flex;
+  align-items: center;
 }
