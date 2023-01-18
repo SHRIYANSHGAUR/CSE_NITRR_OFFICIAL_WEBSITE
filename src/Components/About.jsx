@@ -13,16 +13,16 @@ function About() {
           <div class="col-md-12">
             <h4 class="widget-title">National Institute Of Technology</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-              ex, amet, quisquam magni quasi modi sint accusamus architecto
-              velit veritatis nobis autem repellat dolore quis atque totam
-              laudantium ab sed impedit beatae esse error culpa voluptatem eius
-              et. <br></br>
-              Aut, nulla, debitis voluptates doloribus quisquam maiores
-              repudiandae nam culpa voluptatibus alias earum magnam numquam.
-              Consectetur, ratione, ipsam totam et nesciunt atque temporibus
-              fuga quos rem deserunt tempore dolore eaque dolorum a doloremque
-              optio nihil pariatur aliquid ex id officiis aliquam sed.
+              The institute is committed to the challenging task of development
+              of technical education by preparing seasoned graduates in highly
+              sophisticated field of engineering and technology.
+              <br /> Development of India as an emerging industrial power is a
+              demanding exercise as it involves the combination of cost
+              effectiveness and efficiency along with producing world-class
+              technology at the cutting edge. For about five decades we have
+              been doing it with sincerity and commitment at NIT Raipur. At
+              present the institute offers graduate level courses in twelve
+              disciplines.
             </p>
           </div>
         </div>
