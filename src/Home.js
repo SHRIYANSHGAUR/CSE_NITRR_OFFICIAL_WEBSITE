@@ -53,14 +53,8 @@ function Header() {
       <About />
       <Mission />
       <Faculty />
-      <div id="placement">
-        <News year={"Year - 2022"} title={"Placement Records"} />
-        <News year={"Year - 2021"} />
-        <News year={"Year - 2020"} />
-        <News year={"Year - 2021"} title={"Placement Trends"} />
-        <News year={"Year - 2020"} />
-      </div>
-      <Reseacrh title={"Research and Publications"} />
+      <Placements/>
+      <Reseacrh title={'RESEARCH AND PUBLICATIONS'} />
       <Owl />
       <Gallary />
       <Post />
