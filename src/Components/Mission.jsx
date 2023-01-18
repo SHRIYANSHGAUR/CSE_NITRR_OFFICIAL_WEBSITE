@@ -1,23 +1,27 @@
-import React from "react";
-import "./cstyle.css";
+import React from 'react';
+import { Row, Col} from 'react-bootstrap';
+import './cstyle.css';
+
 
 function Mission() {
   return (
     <div id="mission" class="section-cotent">
       <div class="container">
         <div class="title-section text-center mission1">
-          <h2>About H.O.D.</h2>
+          <h2>Word from H.O.D.</h2>
           <span></span>
         </div>
-        <div class="row">
-          <div class="col-md-13">
+        <Row >
+          <Col sm={12} md={2}>
             <img
               class="hod"
               src="https://i.postimg.cc/fVdbRHgW/img1.png"
               alt="React Image"
             />
+            </Col>
+            <Col sm={12} md={10}>
             <p>
-              Dr. Dilip Singh Sisodia is Working as Associate Professor at the
+            Dr. Dilip Singh Sisodia is Working as Associate Professor at the
               Department of Computer Science and Engineering, National Institute
               of Technology Raipur, Raipur, India.Dr. Sisodia have expertise in
               various fields of computer science including Artificial
@@ -34,9 +38,11 @@ function Mission() {
               shared his work at various international conferences in countries
               like Israel, Spain, Singapore, Thailand, and more.
             </p>
-          </div>
-        </div>
+            </Col>
+        </Row>
       </div>
+      <Row>
+      <Col xs={12} md={6}>
       <div class="container">
         <div class="mission1-section text-center mission1">
           <h2>Mission</h2>
@@ -44,8 +50,8 @@ function Mission() {
         </div>
         <div class="row">
           <div class="col-md-13">
-            <p>
-              To impart effective education at undergraduate levels in the field
+            <p className='content2'>
+            To impart effective education at undergraduate levels in the field
               of Computer Science and Engineering. To strive steadily for the
               overall growth and development of intellect and personality of the
               students who, as professionals, would be confident to face the
@@ -56,6 +62,8 @@ function Mission() {
           </div>
         </div>
       </div>
+      </Col>
+      <Col xs={12} md={6}>
       <div class="container">
         <div class="mission1-section text-center mission1">
           <h2>Vision</h2>
@@ -64,7 +72,7 @@ function Mission() {
         <div class="row">
           <div class="col-md-13">
             <p>
-              To promote Research and Development in the frontier areas of
+            To promote Research and Development in the frontier areas of
               Computer Science & Engineering. To generate Competent
               Professionals to become part of the industry and Research
               Organizations at the National and International levels. To provide
@@ -74,8 +82,11 @@ function Mission() {
           </div>
         </div>
       </div>
+      </Col>
+      </Row>
     </div>
   );
 }
 
 export default Mission;
+
