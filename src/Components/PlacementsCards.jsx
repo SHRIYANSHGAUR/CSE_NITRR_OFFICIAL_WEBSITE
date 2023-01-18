@@ -12,7 +12,7 @@ const News = (props) => {
 
         <div class="container news cd">
             <div>
-          <h4 class="mb-5">
+          <h4 class="mb-5 font1">
            <h3 class="title-section text-center" className={isVisible ? 'animate__animated animate__swing':''}>{props.year}</h3>
           </h4>
           <div class="card  text-white shadow-1-strong ">
