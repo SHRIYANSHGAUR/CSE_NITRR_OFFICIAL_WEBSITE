@@ -80,6 +80,186 @@ function GridList() {
             marginTop: '2px',
           }}
         >
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    src="https://i.postimg.cc/vZM2KRjy/Screenshot-276.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">ISMS 2021</h5>
+                  <p class="card-text">
+                    ISMS 2021 has been organized by department.
+                  </p>
+                  {/* <a href="#!" class="btn btn-primary">
+                    Read
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    src="https://i.postimg.cc/85qh5m0B/Screenshot-277.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">MISP 2022</h5>
+                  <p class="card-text">
+                    MISP 2022 has been organized by department.
+                  </p>
+                  {/* <a href="#!" class="btn btn-primary">
+                    Read
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    src="https://i.postimg.cc/mkC7FFxx/Screenshot-278.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">ICIINS 2022</h5>
+                  <p class="card-text">
+                  ICIINS 2022 has been organized by department.
+                  </p>
+                  {/* <a href="#!" class="btn btn-primary">
+                    Read
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    src="https://i.postimg.cc/jj36Vb61/Screenshot-279.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">SCITSE 2017</h5>
+                  <p class="card-text">
+                  SCITSE 2017has been organized by department.
+                  </p>
+                  {/* <a href="#!" class="btn btn-primary">
+                    Read
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    src="https://i.postimg.cc/Pxhqp5Vc/Screenshot-280-2.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">RAC2B 2017</h5>
+                  <p class="card-text">
+                  RAC2B 2017 has been organized by department.
+                  </p>
+                  {/* <a href="#!" class="btn btn-primary">
+                    Read
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    src="https://i.postimg.cc/sXFhnz69/Screenshot-281-2.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                    ></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">ATAL FDP</h5>
+                  <p class="card-text">
+                    ATAL FDP Artificial Intelligence has been organized by department.
+                  </p>
+                  {/* <a href="#!" class="btn btn-primary">
+                    Read
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            {/* <SmallCard />
           <SmallCard />
           <SmallCard />
           <SmallCard />
@@ -87,8 +267,7 @@ function GridList() {
           <SmallCard />
           <SmallCard />
           <SmallCard />
-          <SmallCard />
-          <SmallCard />
+          <SmallCard /> */}
         </MDBRow>
       </section>
     </div>
