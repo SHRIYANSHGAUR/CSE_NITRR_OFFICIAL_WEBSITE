@@ -89,7 +89,7 @@ function GridList() {
                 >
                   <img
                     // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
-                    src="https://i.postimg.cc/DzwQYZGs/Screenshot-276.png"
+                    src="https://i.postimg.cc/vZM2KRjy/Screenshot-276.png"
                     class="img-fluid"
                   />
                   <a href="#!">
@@ -209,7 +209,7 @@ function GridList() {
                 >
                   <img
                     // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
-                    src="https://i.postimg.cc/gc5b4XC9/Screenshot-280.png"
+                    src="https://i.postimg.cc/Pxhqp5Vc/Screenshot-280-2.png"
                     class="img-fluid"
                   />
                   <a href="#!">
@@ -239,7 +239,7 @@ function GridList() {
                 >
                   <img
                     // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
-                    src="https://i.postimg.cc/MHhkGN7Z/Screenshot-281.png"
+                    src="https://i.postimg.cc/sXFhnz69/Screenshot-281-2.png"
                     class="img-fluid"
                   />
                   <a href="#!">
