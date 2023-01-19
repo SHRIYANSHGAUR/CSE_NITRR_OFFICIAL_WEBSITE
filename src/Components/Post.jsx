@@ -48,7 +48,7 @@ const Post = () => {
                 >
                   <img
                     // src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
-                    src="https://i.postimg.cc/R0Q3XpTc/Screenshot-271.png"
+                    src="https://i.postimg.cc/4xz7mV2s/Screenshot-271.png"
                     class="img-fluid"
                   />
                   <a href="#!">
@@ -167,7 +167,7 @@ const Post = () => {
                 >
                   <img
                     // src="https://mdbootstrap.com/img/new/standard/nature/035.jpg"
-                    src="https://i.postimg.cc/W342kmgC/Screenshot-275.png"
+                    src="https://i.postimg.cc/8ztfVWy5/Screenshot-275.png"
                     class="img-fluid"
                   />
                   <a href="#!">
